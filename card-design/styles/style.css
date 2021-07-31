@@ -1,4 +1,4 @@
-html{
+body{
     background-color:rgb(18, 18, 68);
     color: skyblue;
 }
@@ -97,4 +97,43 @@ html{
   }
   .icon {
       margin-left: 350px;
+  }
+  
+  .icon {
+    float: left;
+    width: 60%; 
+  }
+  @media screen and (max-width: 700px) {
+    .circleone, .card, .circletwo {
+      width: 50%;
+    }
+  }
+
+  button {
+      margin-left: -250px;
+      margin-top: 100px;
+     
+  }
+
+  .wrapper{
+    width: 35px; height: 35px;
+    border-radius: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.678);
+    overflow: hidden;
+   
+  }
+ 
+  .one{
+    
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.678);
+    height: 35px; width: 18px;
+    margin-right: 30px;
+    border-right: 2px solid rgba(0, 0, 0, 0.678);
+    
+  }
+
+  .dark-mode {
+    background-color: white;
+    color: white;
   }
