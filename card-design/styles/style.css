@@ -36,7 +36,7 @@ html{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    margin-top: -65px;
+    margin-top: -73px;
     margin-left: -60px;
     background-color: rgb(78, 78, 187);
     box-shadow: 30px 0 20px 10px rgb(78, 78, 187), 0 0 10px 0 rgb(78, 78, 187);
@@ -49,10 +49,27 @@ html{
      margin-left: 80px;
   }
   .vl {
-    border-left: 3px solid skyblue;
-    height: 20px;
-    padding: 1px;
+    border-right: 3px solid skyblue;
+    padding: 0;
     display: inline-block;
+    width: 7px;
+    border-radius: 80%;
+  }
+  #one {
+    height: 20px;
+    vertical-align :middle;
+  }
+  #two {
+    height: 25px;
+    vertical-align:middle;
+  }
+  #three {
+    height: 30px;
+    vertical-align: bottom;
+  }
+  #four {
+    height: 35px;
+    vertical-align: bottom;
   }
   .icon {
       margin-left: 350px;
