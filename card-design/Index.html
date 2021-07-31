@@ -7,6 +7,10 @@
         <link href="styles/style.css" rel="stylesheet">
     </head>
 
+  
+     
+       
+
     <body>
 
         <div class="container">
@@ -24,7 +28,19 @@
             <span class="circletwo"></span>  
            
             </div>
+            <button onclick="myFunction()">
+                <div class="wrapper">
+                    <div class="one"></div>
+                </div>
+            </button>
         </div>
         
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
+
     </body>
 </html>
