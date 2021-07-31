@@ -19,6 +19,30 @@ html{
     width: 35%;
     padding: 0 10px; 
   }
+
+.star {
+    width: 30px; height: 28px;
+    background-color: rgb(52, 76, 121);
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+.star {
+    transform: rotate(-30deg) skewX(30deg);
+  }
+.star:before, .star:after {
+    position: absolute;
+    width: inherit; height: inherit;
+    background: inherit;
+    content: '';
+  
+  }
+.star:before {
+    transform: skewx(-30deg) skewx(-30deg);
+  }
+.star:after {
+    transform: skewx(-30deg) rotate(-60deg) skewx(-30deg);
+}
+
 .circleone {
     height: 200px;
     width: 200px;
@@ -26,7 +50,7 @@ html{
     border-radius: 50%;
     display: inline-block;
     margin-left: 250px;
-    margin-top: -82px;
+    margin-top: -130px;
     background-color: skyblue;
     box-shadow: 0 30px 20px 10px skyblue, 12px 10px 1px 0 skyblue;
   }
@@ -36,7 +60,7 @@ html{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    margin-top: -73px;
+    margin-top: -78px;
     margin-left: -60px;
     background-color: rgb(78, 78, 187);
     box-shadow: 30px 0 20px 10px rgb(78, 78, 187), 0 0 10px 0 rgb(78, 78, 187);
