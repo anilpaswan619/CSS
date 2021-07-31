@@ -1,0 +1,59 @@
+html{
+    background-color:rgb(18, 18, 68);
+    color: skyblue;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    border: 2px solid rgb(52, 76, 121);
+    height: 250px;
+    background-color: rgb(33, 33, 78);
+  }
+  .container {
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 170px;
+    width: 35%;
+    padding: 0 10px; 
+  }
+.circleone {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: -82px;
+    background-color: skyblue;
+    box-shadow: 0 30px 20px 10px skyblue, 12px 10px 1px 0 skyblue;
+  }
+  .circletwo {
+    height: 105px;
+    width: 105px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -65px;
+    margin-left: -60px;
+    background-color: rgb(78, 78, 187);
+    box-shadow: 30px 0 20px 10px rgb(78, 78, 187), 0 0 10px 0 rgb(78, 78, 187);
+  }
+  p{
+      font-size: 23px;
+      font-family:Arial, Helvetica, sans-serif;
+      letter-spacing: 1px;
+      margin-top: 10px;
+     margin-left: 80px;
+  }
+  .vl {
+    border-left: 3px solid skyblue;
+    height: 20px;
+    padding: 1px;
+    display: inline-block;
+  }
+  .icon {
+      margin-left: 350px;
+  }
